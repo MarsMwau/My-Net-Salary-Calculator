@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Salary Calculator</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<h1>PAYE Calculator</h1>
+    <div class="box">
+	<form>
+		<label for="income">Monthly Income:</label>
+		<input type="number" id="income" name="income" min="0" required><br>
+		<input type="button" value="Calculate" onclick="calculate()">
+	</form>
+	<div id="results"></div>
+    </div>
+	<script src="./script.js"></script>
+</body>
+</html>
